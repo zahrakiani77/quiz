@@ -7,7 +7,7 @@ const Layout = () => {
     <div className="flex h-screen flex-col">
       <Header className="flex-none" />
 
-      <main className="flex-1 overflow-y-auto">
+      <main className="flex-1 overflow-x-hidden">
         <Outlet />
       </main>
 

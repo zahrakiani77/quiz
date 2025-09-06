@@ -10,7 +10,7 @@ import Container from "./Container";
 const Footer = ({ className }: { className?: string }) => {
   return (
     <Container
-      className={`flex items-center justify-around bg-darker-background overflow-visible h-14 px-6 py-2 ${className}`}
+      className={`flex fixed bottom-0 items-center justify-around bg-darker-background overflow-visible h-14 px-6 py-2 ${className}`}
     >
       <NavLink to="/">
         {({ isActive }) => (
